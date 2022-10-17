@@ -203,40 +203,16 @@ body{
     })
 
     
-//     document.getElementById('thdefault').addEventListener('click', function(){
-//         document.getElementById('threshold').value = 0
-//         document.getElementById('threshold_val').value = 0
-//         rgbachange()
-//     })
+    document.getElementById('thdefault').addEventListener('click', function(){
+        document.getElementById('threshold').value = 0
+        document.getElementById('threshold_val').value = 0
+        rgbachange()
+    })
 
-//     document.getElementById('brdefault').addEventListener('click', function(){
-//         document.getElementById('brightness').value = 0
-//         document.getElementById('brightness_val').value = 0
-//         rgbachange()
-//     })
-
-//     document.getElementById('default').addEventListener('click',function(){
-//         obj.image2original()
-//         for(var i=1; i<=3;i++){
-//             document.getElementById('ch'+i).value = 0
-//         }
-
-//         document.getElementById('ch4').value = 255
-//         rgbachange()
-//     })
-
-//     document.getElementById('randomize').addEventListener('click',function(){
-        
-//         for(var i=1; i<=3;i++){
-//             document.getElementById('ch'+i).value = Math.floor(Math.random() * 511) - 255;
-//         }
-//         document.getElementById('ch4').value = Math.floor(Math.random() * 256);
-//         rgbachange()
-//     })
-
-//     document.getElementById('hist1').addEventListener('click',function(){
-//         var hist = obj.hist2read([parseInt(document.getElementById("histval").value)]) //Call [R,G,B,A] as [0,1,2,3], can input more than 1 but only [0..3] parameter only
-//         obj2.hist2canvas(hist[0],10)
-//     })
+    document.getElementById('brdefault').addEventListener('click', function(){
+        document.getElementById('brightness').value = 0
+        document.getElementById('brightness_val').value = 0
+        rgbachange()
+    })
 
     </script>
